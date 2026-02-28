@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crum Real Estate Website</title>
+    <link rel="icon" href="images/crumClogo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>reh</h1>
+    <!-- Header Navbar -->
+    <header class="headerwraping">
+        <nav class="nav-container">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                <!-- Navbar Buttons -->
+                <div class="nav-btn">
+                    <ul class="navbar-ul">
+                        <li>
+                            <a href="#buy" class="navbar-a">Buy</a>
+                        </li>
+                        <li>
+                            <a href="#rent" class="navbar-a">Rent</a>
+                        </li>
+                        <li>
+                            <a href="#sell" class="navbar-a">Sell</a>
+                        </li>
+                        <li>
+                            <a href="#agent" class="navbar-a">Agent</a>
+                        </li>
+                        <li>
+                            <a href="#newDevelopment" class="navbar-a">New Development</a>
+                        </li>
+                    </ul>
+                    <!-- Navbar Login & sign Up Buttons -->
+                    <div class="login-signUp">
+                        <button class="login-btn">Login</button>
+                        <button class="signup-btn">Sign up</button>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-wrapper">
+        <h2 class="hero-content">Find your place</h2>
+      <div class="inputDiv">>
+        <div class="category-tabs">
+          <button class="buy-btn">Buy</button>
+          <button class="rent-btn">Rent</button>
+        </div>
+
+        <div class="search-container">
+          <input type="text" placeholder="Country, City, Address, Postal Code or ID" class="heroInput" required>
+          <button class="search-btn">
+           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="-10" viewBox="0 0 25.773 25.686">
+                                <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search" d="M28.89,27.392l-6.864-6.928a9.782,9.782,0,1,0-1.485,1.5l6.819,6.883a1.056,1.056,0,0,0,1.491.039A1.063,1.063,0,0,0,28.89,27.392ZM14.34,22.051A7.724,7.724,0,1,1,19.8,19.789,7.676,7.676,0,0,1,14.34,22.051Z" transform="translate(-4 -3.993)" fill="#fff" stroke="#fff" stroke-width="1"></path>
+                            </svg>
+          </button>
+        </div>
+      </div>
+  </section>
+
 </body>
 </html>
