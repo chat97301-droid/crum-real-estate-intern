@@ -1,74 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crum Real Estate Website</title>
-    <link rel="icon" href="images/crumClogo.png">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" href="images/crumClogo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Header Navbar -->
     <header class="headerwraping">
-        <nav class="nav-container">
-            <img src="images/logo.png" alt="" class="logo">
-            <div class="hamburger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-                <!-- Navbar Buttons -->
-                <div class="nav-btn">
-                    <ul class="navbar-ul">
-                        <li>
-                            <a href="#buy" class="navbar-a">Buy</a>
-                        </li>
-                        <li>
-                            <a href="#rent" class="navbar-a">Rent</a>
-                        </li>
-                        <li>
-                            <a href="#sell" class="navbar-a">Sell</a>
-                        </li>
-                        <li>
-                            <a href="#agent" class="navbar-a">Agent</a>
-                        </li>
-                        <li>
-                            <a href="#newDevelopment" class="navbar-a">New Development</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Login & sign Up Buttons -->
-                    <div class="login-signUp">
-                        <button class="login-btn">Login</button>
-                        <button class="signup-btn">Sign up</button>
-                    </div>
-                </div>
-        </nav>
+      <nav class="nav-container">
+        <img src="images/logo.png" alt="" class="logo" />
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- Navbar Buttons -->
+        <div class="nav-btn">
+          <ul class="navbar-ul">
+            <li>
+              <a href="#buy" class="navbar-a">Buy</a>
+            </li>
+            <li>
+              <a href="#rent" class="navbar-a">Rent</a>
+            </li>
+            <li>
+              <a href="#sell" class="navbar-a">Sell</a>
+            </li>
+            <li>
+              <a href="#agent" class="navbar-a">Agent</a>
+            </li>
+            <li>
+              <a href="#newDevelopment" class="navbar-a">New Development</a>
+            </li>
+          </ul>
+          <!-- Navbar Login & sign Up Buttons -->
+          <div class="login-signUp">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign up</button>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="hero-wrapper">
-        
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-wrapper">
         <h2 class="hero-content">Find your place</h2>
-      <div class="inputDiv">>
-        <div class="category-tabs">
-          <button class="buy-btn">Buy</button>
-          <button class="rent-btn">Rent</button>
-        </div>
+        <div class="inputDiv">
+          >
+          <div class="category-tabs">
+            <button class="buy-btn">Buy</button>
+            <button class="rent-btn">Rent</button>
+          </div>
 
-        <div class="search-container">
-          <input type="text" placeholder="Country, City, Address, Postal Code or ID" class="heroInput" required>
-          <button class="search-btn">
-           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="-10" viewBox="0 0 25.773 25.686">
-                                <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search" d="M28.89,27.392l-6.864-6.928a9.782,9.782,0,1,0-1.485,1.5l6.819,6.883a1.056,1.056,0,0,0,1.491.039A1.063,1.063,0,0,0,28.89,27.392ZM14.34,22.051A7.724,7.724,0,1,1,19.8,19.789,7.676,7.676,0,0,1,14.34,22.051Z" transform="translate(-4 -3.993)" fill="#fff" stroke="#fff" stroke-width="1"></path>
-                            </svg>
-          </button>
+          <div class="search-container">
+            <input
+              type="text"
+              placeholder="Country, City, Address, Postal Code or ID"
+              class="heroInput"
+              required
+            />
+            <button class="search-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="-10"
+                viewBox="0 0 25.773 25.686"
+              >
+                <path
+                  id="Icon_ionic-ios-search"
+                  data-name="Icon ionic-ios-search"
+                  d="M28.89,27.392l-6.864-6.928a9.782,9.782,0,1,0-1.485,1.5l6.819,6.883a1.056,1.056,0,0,0,1.491.039A1.063,1.063,0,0,0,28.89,27.392ZM14.34,22.051A7.724,7.724,0,1,1,19.8,19.789,7.676,7.676,0,0,1,14.34,22.051Z"
+                  transform="translate(-4 -3.993)"
+                  fill="#fff"
+                  stroke="#fff"
+                  stroke-width="1"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-</body>
+    <!-- Main Section -->
+    <section class="container">
+      <div class="main-section-container">
+        <div class="about-container">
+          <h1 class="about-heading">About Us</h1>
+          <div class="main-divder"></div>
+          <p class="about-para">
+            Since 2008, CRUM real estate agents has help first-time homebuyers
+            purchase new development properties and has helped sellers with
+            selling thier co-ops, condos and townhouses.
+          </p>
+          <button class="about-btn">Meet Our Agent</button>
+        </div>
+        <img
+          src="images/main-section.png"
+          alt="Main Section"
+          class="main-section-image"
+        />
+        <img
+          src="images/main-section-image-2.png"
+          alt="Main Section Image 2"
+          class="main-section-image2"
+        />
+        <div class="thinking-container">
+          <h1 class="about-heading">Thinking about Selling?</h1>
+          <div class="main-divder"></div>
+          <p class="about-para">
+            Count on us for expert advice and world-class support throughout
+            your transaction.
+          </p>
+          <br />
+          <br />
+          <p class="about-para">
+            Our agents have gone through extensive training to provide you the
+            best consumer experience.
+          </p>
+          <button class="about-btn">Sell Your Home</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Crum Connection -->
+    <section class="crum-connect-section">
+      <div class="connect-top-grid">
+        <div class="before-box">
+          <img
+            src="images/crum-connect-image.png"
+            class="before"
+            alt="Before"
+          />
+          <p class="befores">Before</p>
+        </div>
+
+        <div class="connect-text-box">
+          <h2 class="connect-title">CRUM Connect</h2>
+          <p class="connect-desc">
+            CRUM Connect helps you sell your home faster and for more money by
+            covering the cost of home improvement services — no upfront fees or
+            interest charged.
+          </p>
+          <div class="connect-cta-div">
+            <a href="#" class="connect-cta"
+              >Crum Connect
+              <span class="arro"><img src="/images/arrow.png" alt="" /></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="after-full-box">
+        <h3 class="after-title">After</h3>
+        <div class="after">
+          <img src="images/after.png" class="afterImage" alt="After" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Propertires -->
+    <section class="featured-container">
+        <div class="heading-group">
+      <span class="gold-line"></span>
+      <h2 class="main-title">Featured Properties</h2>
+    </div>
+
+    <div class="sub-heading-group">
+      <div class="left-side">
+        <span class="gold-line-left"></span>
+        <h2 class="main-title">Manhattan, New York</h2>
+      </div>
+      <a href="#" class="view-all">View All <span class="arrow-icon"><img src="images/vewiArrow.png" alt=""></span></a>
+    </div>
+    </section>
+  </body>
 </html>
