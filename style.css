@@ -204,15 +204,7 @@ html, body {
 
 
 /* Responsive websites */
-@media (max-width: 992px) {
-    /* Hero Content */
-    .hero-content {
-        font-size: 40px;
-    }
-}
-
 @media (max-width: 786px) {
-    /* Navbar */
     .nav-btn {
         display: none;
     }
@@ -220,24 +212,18 @@ html, body {
     .hamburger-menu {
         display: block;
     }
-
-    /* Hero Conntent */
-    .hero-content {
-        font-size: 35px;
-    }
 }
 
 @media (max-width: 600px) {
-    /* hero Content */
     .hero-content {
-        font-size: 30px;
+        font-size: 16px;
     }
-}
 
+    .buy-btn, .rent-btn {
+        padding: 10px 15px;
+    }
 
-@media (min-width: 600px) {
-    /* hero Content */
-    .hero-content {
-        font-size: 25px;
+    .heroInput {
+        width: 100%;
     }
 }
