@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crum Real Estate</title>
-    <link rel="icon" href="images/crumClogo.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,11 +11,6 @@
     <header class="header-wraping">
       <nav class="nav-container">
         <img src="images/logo.png" alt="" class="logo" />
-        <div class="hamburger-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
         <!-- Navbar Buttons -->
         <div class="nav-btn">
           <ul class="navbar-ul">
@@ -36,58 +30,74 @@
               <a href="#newDevelopment" class="navbar-a">New Development</a>
             </li>
           </ul>
+
+         
           <!-- Navbar Login & sign Up Buttons -->
           <div class="login-signUp">
             <button class="login-btn">Login</button>
             <button class="signup-btn">Sign up</button>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div class="hero-wrapper">
-        <h2 class="hero-content">Find your place</h2>
-        <div class="inputDiv">
-          >
-          <div class="category-tabs">
-            <button class="buy-btn">Buy</button>
-            <button class="rent-btn">Rent</button>
+         <div class="menu">
+            <svg
+              class="menu-icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M4 6H20M4 12H20M4 18H20"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
+      </nav>
 
-          <div class="search-container">
-            <input
-              type="text"
-              placeholder="Country, City, Address, Postal Code or ID"
-              class="heroInput"
-              required
-            />
-            <button class="search-btn">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="-10"
-                viewBox="0 0 25.773 25.686"
-              >
-                <path
-                  id="Icon_ionic-ios-search"
-                  data-name="Icon ionic-ios-search"
-                  d="M28.89,27.392l-6.864-6.928a9.782,9.782,0,1,0-1.485,1.5l6.819,6.883a1.056,1.056,0,0,0,1.491.039A1.063,1.063,0,0,0,28.89,27.392ZM14.34,22.051A7.724,7.724,0,1,1,19.8,19.789,7.676,7.676,0,0,1,14.34,22.051Z"
-                  transform="translate(-4 -3.993)"
-                  fill="#fff"
-                  stroke="#fff"
-                  stroke-width="1"
-                ></path>
-              </svg>
-            </button>
+      <section class="hero-section">
+        <div class="hero-wrapper">
+          <h2 class="hero-content">Find your place</h2>
+          <div class="inputDiv">
+            <div class="category-tabs">
+              <button class="buy-btn">Buy</button>
+              <button class="rent-btn">Rent</button>
+            </div>
+
+            <div class="search-container">
+              <input
+                type="text"
+                placeholder="Country, City, Address, Postal Code or ID"
+                class="heroInput"
+                required
+              />
+              <button class="search-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="-10"
+                  viewBox="0 0 25.773 25.686"
+                >
+                  <path
+                    id="Icon_ionic-ios-search"
+                    data-name="Icon ionic-ios-search"
+                    d="M28.89,27.392l-6.864-6.928a9.782,9.782,0,1,0-1.485,1.5l6.819,6.883a1.056,1.056,0,0,0,1.491.039A1.063,1.063,0,0,0,28.89,27.392ZM14.34,22.051A7.724,7.724,0,1,1,19.8,19.789,7.676,7.676,0,0,1,14.34,22.051Z"
+                    transform="translate(-4 -3.993)"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-width="1"
+                  ></path>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </header>
 
     <!-- Main Section -->
-    <section class="container">
+    <section class="container about-main-container">
       <div class="main-section-container">
         <div class="about-container">
           <h1 class="about-us">About Us</h1>
@@ -99,7 +109,7 @@
             </p>
           </div>
           <div class="meet-btn">
-          <button class="about-btn">Meet Our Agent</button>
+          <button class="about-btn">Meet Our Agents</button>
         </div>
       </div>
       <div class="">
@@ -123,19 +133,23 @@
   />
 
   <div class="thinkings">
+    <div class="about-container"></div>
     <h1 class="about-us">Thinking about Selling?</h1>
-    <div class="main-divder"></div>
+    <div class="about-content">
     <p class="about-para">
       Count on us for expert advice and world-class support throughout
       your transaction.
     </p>
+    
       <br>
     <p class="about-para">
       Our agents have gone through extensive training to provide you the
       best consumer experience.
     </p>
-
+</div>
+<div class="thinking-btn">
     <button class="about-btn">Sell Your Home</button>
+</div>
   </div>
 
 </div>
@@ -154,7 +168,7 @@
         <div class="connect-text-box">
           <h2 class="connect-title">CRUM Connect</h2>
           <p class="connect-desc">
-            CRUM Connect helps you sell your home faster and for more money by
+            CRUM connect helps you sell your home faster and for more money by
             covering the cost of home improvement services — no upfront fees or
             interest charged.
           </p>
@@ -174,7 +188,7 @@
       </div>
     </section>
 
-    <!-- Featured Propertires -->
+     <!-- Featured Propertires -->
     <section class="featured-container">
         <div class="heading-group">
       <span class="gold-line"></span>
@@ -224,7 +238,7 @@
                 <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -262,7 +276,7 @@
                <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -300,7 +314,7 @@
                <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -338,7 +352,7 @@
                 <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -349,10 +363,10 @@
       </div>
     
       <!-- Los Angeles, Califoria -->
-           <div class="sub-heading-group">
+           <div class="sub-heading-group los-angeles">
       <div class="left-side">
-        <span class="gold-line-left"></span>
-        <h2 class="main-title">Los Angels, Califoria</h2>
+        <span class="gold-line-left los"></span>
+        <h2 class="main-title los-title">Los Angels, Califoria</h2>
       </div>
       <a href="#" class="view-all">View All <span class="arrow-icon"><img src="images/vewiArrow.png" alt=""></span></a>
     </div>
@@ -392,7 +406,7 @@
                 <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -430,7 +444,7 @@
                <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -468,7 +482,7 @@
                <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -506,7 +520,7 @@
                 <div class="propertice-iconImages">
                   <img class="bed-icon" src="images/properties-icon-bad.png" alt=""><span class="bed-span">2</span>
                   <img  class="bath-icon" src="images/properties-icon-bath.png" alt=""><span class="bath-span">2</span>
-                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">2,000</span>
+                  <img src="images/properties-icon-width.png" alt=""><span class="squarePara">8,000</span>
                 </div>
               </div>
             </div>
@@ -520,8 +534,8 @@
     <!-- Our locations -->
         <div class="sub-heading-group our-location-gropu">
       <div class="left-side">
-        <span class="gold-line-left"></span>
-        <h2 class="main-title">Our Locations</h2>
+        <span class="gold-line-left location-divider"></span>
+        <h2 class="main-title location-title">Our Locations</h2>
       </div>
       <a href="#" class="view-all" style="visibility: hidden;">View All <span class="arrow-icon"><img src="images/vewiArrow.png" alt=""></span></a>
     </div>
@@ -535,7 +549,7 @@
         </div>
         <div class="locationCard-content">
           <h3 class="card-heading">California</h3>
-          <p class="card-text">500+ Property</p>
+          <p class="card-text">500<small>+</small> Property</p>
         </div>
       </div>
       <div class="card-item">
@@ -545,7 +559,7 @@
         </div>
         <div class="locationCard-content">
           <h3 class="card-heading">New York</h3>
-          <p class="card-text">300+ Property</p>
+          <p class="card-text">300<small>+</small> Property</p>
         </div>
       </div>
 
@@ -556,7 +570,7 @@
         </div>
         <div class="locationCard-content">
           <h3 class="card-heading">Hudson Valley</h3>
-          <p class="card-text">400+ Property</p>
+          <p class="card-text">400<small>+</small> Property</p>
         </div>
       </div>
 
@@ -567,7 +581,7 @@
         </div>
         <div class="locationCard-content">
           <h3 class="card-heading">New Jersey</h3>
-          <p class="card-text">400+ Property</p>
+          <p class="card-text">400<small>+</small> Property</p>
         </div>
       </div>
 
@@ -579,7 +593,7 @@
         </div>
         <div class="locationCard-content">
           <h3 class="card-heading">Connecticut</h3>
-          <p class="card-text">400+ Property</p>
+          <p class="card-text">400<small>+</small> Property</p>
         </div>
       </div>
 
@@ -590,22 +604,25 @@
         </div>
         <div class="locationCard-content">
           <h3 class="card-heading">Connecticut</h3>
-          <p class="card-text">400+ Property</p>
-        </section>
+          <p class="card-text">400<small>+</small> Property</p>
+        </div>
+      </div>
+    </section>
 
-
-        <!-- Crum App -->
+            <!-- Crum App -->
          <section class="crum-container">
+          <div class="container crum-apps">
       <div class="main-section-container crum-app-contaner">
-        <div class="about-container crum">
-          <div class="main-divder crum-divder"></div>
-          <h1 class="about-heading crum-heading">The Crum App</h1>
-          <p class="crum-para">
+        <div class="about-container crum-about-container crum">
+          <div class="about-content">
+          <h1 class="about-us crum-heading">The CRUM App</h1>
+          <p class="about-para about-para-crum">
             Sync your home search across all your devices and stay connected to your agent Download today
           </p>
+          </div>
           <div class="crum-app">
             <img src="images/googlePlay.png" alt="Crum Google Play Store App" class="crumgoogle-app">
-            <img src="images/appStore.png" alt="Crum Apple Store App" class="crumgoogle-app">
+            <img src="images/app-store.png" alt="Crum Apple Store App" class="crumgoogle-app">
           </div>
         </div>
         <img
@@ -614,20 +631,20 @@
           class="main-section-image crum-app-image"
         />
       </div>
+      </div>
     </section>
 
     <!-- Our Blog -->
       <div class="sub-heading-group our-blog-group">
       <div class="left-side">
-        <span class="gold-line-left"></span>
-        <h2 class="main-title">Our Blog</h2>
+        <span class="gold-line-left blog-divder"></span>
+        <h2 class="main-title blog-titles">Our Blog</h2>
       </div>
       <a href="#" class="view-all" style="visibility: hidden;">View All <span class="arrow-icon"><img src="images/vewiArrow.png" alt=""></span></a>
     </div>
 
     <!-- Our Blog -->
 <section class="container blog-container">
-     <!-- Blog Card Grid -->
     <div class="blog-card-container">
         <!-- Blog Card 1 -->
             <div class="blog-card-imags">
@@ -686,7 +703,8 @@
 
     </div>
 </section>
-    <!-- Popular Cites -->
+
+ <!-- Popular Cites -->
       <div class="sub-heading-group real-estate-popular-cites">
       <div class="left-side">
         <span class="gold-line-left"></span>
@@ -695,7 +713,7 @@
       <a href="#" class="view-all" style="visibility: hidden;">View All <span class="arrow-icon"><img src="images/vewiArrow.png" alt=""></span></a>
     </div>
 
-     <section class="container blog-container">
+     <section class="container popular-cites-container">
       <div class="main-section-container popular-cites">
         <div class="popular-links">
           <a href="#" class="popular-cites-link">Califomia Real Estate</a>
@@ -728,14 +746,11 @@
 
       
     </section>
-<div class="sub-heading-group view-heading">
-      <div class="left-side">
-        <a class="main-title view-a">View All</a>
-      </div>
-      <a href="#" class="view-all" style="visibility: hidden;">View All <span class="arrow-icon"><img src="images/vewiArrow.png" alt=""></span></a>
+    <div class="view-all-container">
+      <a href="#" class="view">View All</a>
     </div>
 
-   <footer class="footer-container">
+       <footer class="footer-container">
     <div class="container footers">
     <div class="footer-content">
 
@@ -812,7 +827,8 @@
   </div>
   </footer>
   <div class="footer-end">
-    <p>&copy; 2026 CRUM REAL ESTATE. ALL RIGHTS RESERVED. DESIGNED BY <span style="text-decoration: underline;">OSO.NYC</span></p>
+    <p>&copy; 2022 CRUM REAL ESTATE. ALL RIGHTS RESERVED. DESIGNED BY <span style="text-decoration: underline;">OSO.NYC</span></p>  
   </div>
+
   </body>
 </html>

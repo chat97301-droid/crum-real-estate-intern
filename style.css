@@ -5,246 +5,6 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Black.eot");
-  src:
-    url("fonts/Montserrat-Black.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Black.woff2") format("woff2"),
-    url("fonts/Montserrat-Black.woff") format("woff"),
-    url("fonts/Montserrat-Black.svg#Montserrat-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Bold.eot");
-  src:
-    url("fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("fonts/Montserrat-Bold.woff") format("woff"),
-    url("fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-BlackItalic.eot");
-  src:
-    url("fonts/Montserrat-BlackItalic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-BlackItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-BlackItalic.woff") format("woff"),
-    url("fonts/Montserrat-BlackItalic.svg#Montserrat-BlackItalic") format("svg");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-BoldItalic.eot");
-  src:
-    url("fonts/Montserrat-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-BoldItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-BoldItalic.woff") format("woff"),
-    url("fonts/Montserrat-BoldItalic.svg#Montserrat-BoldItalic") format("svg");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-ExtraBold.eot");
-  src:
-    url("fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-ExtraBold.woff2") format("woff2"),
-    url("fonts/Montserrat-ExtraBold.woff") format("woff"),
-    url("fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-ExtraBoldItalic.eot");
-  src:
-    url("fonts/Montserrat-ExtraBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-ExtraBoldItalic.woff") format("woff"),
-    url("fonts/Montserrat-ExtraBoldItalic.svg#Montserrat-ExtraBoldItalic")
-      format("svg");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-ExtraLight.eot");
-  src:
-    url("fonts/Montserrat-ExtraLight.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-ExtraLight.woff2") format("woff2"),
-    url("fonts/Montserrat-ExtraLight.woff") format("woff"),
-    url("fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight") format("svg");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-ExtraLightItalic.eot");
-  src:
-    url("fonts/Montserrat-ExtraLightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-ExtraLightItalic.woff") format("woff"),
-    url("fonts/Montserrat-ExtraLightItalic.svg#Montserrat-ExtraLightItalic")
-      format("svg");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Light.eot");
-  src:
-    url("fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Light.woff2") format("woff2"),
-    url("fonts/Montserrat-Light.woff") format("woff"),
-    url("fonts/Montserrat-Light.svg#Montserrat-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Italic.eot");
-  src:
-    url("fonts/Montserrat-Italic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Italic.woff2") format("woff2"),
-    url("Montserrat-Italic.woff") format("woff"),
-    url("fonts/Montserrat-Italic.svg#Montserrat-Italic") format("svg");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-LightItalic.eot");
-  src:
-    url("fonts/Montserrat-LightItalic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-LightItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-LightItalic.woff") format("woff"),
-    url("fonts/Montserrat-LightItalic.svg#Montserrat-LightItalic") format("svg");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Medium.eot");
-  src:
-    url("fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Medium.woff") format("woff"),
-    url("fonts/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-MediumItalic.eot");
-  src:
-    url("fonts/Montserrat-MediumItalic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-MediumItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-MediumItalic.woff") format("woff"),
-    url("fonts/Montserrat-MediumItalic.svg#Montserrat-MediumItalic")
-      format("svg");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-SemiBold.eot");
-  src:
-    url("fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-SemiBold.woff2") format("woff2"),
-    url("fonts/Montserrat-SemiBold.woff") format("woff"),
-    url("fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Regular.eot");
-  src:
-    url("fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("fonts/Montserrat-Regular.woff") format("woff"),
-    url("fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Thin.eot");
-  src:
-    url("fonts/Montserrat-Thin.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-Thin.woff2") format("woff2"),
-    url("fonts/Montserrat-Thin.woff") format("woff"),
-    url("fonts/Montserrat-Thin.svg#Montserrat-Thin") format("svg");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-SemiBoldItalic.eot");
-  src:
-    url("fonts/Montserrat-SemiBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-SemiBoldItalic.woff") format("woff"),
-    url("fonts/Montserrat-SemiBoldItalic.svg#Montserrat-SemiBoldItalic")
-      format("svg");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-ThinItalic.eot");
-  src:
-    url("fonts/Montserrat-ThinItalic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Montserrat-ThinItalic.woff2") format("woff2"),
-    url("fonts/Montserrat-ThinItalic.woff") format("woff"),
-    url("fonts/Montserrat-ThinItalic.svg#Montserrat-ThinItalic") format("svg");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "BentonSans";
   src:
     url("fonts/BentonSans-Bold.woff2") format("woff2"),
@@ -354,11 +114,6 @@
   font-display: swap;
 }
 
-html,
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
 
 /* Header */
 .header-wraping {
@@ -370,33 +125,33 @@ body {
 }
 
 .nav-container {
-  max-width: 1277px;
+  max-width: 1300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0;
+  padding: 11px 10px;
 }
 
 .nav-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 70px;
+  gap: 67px;
   font-size: 18px;
-  padding-right: 11px;
+  padding-right: 9px;
 }
 
 .navbar-ul {
   display: flex;
-  gap: 30px;
+  gap: 35px;
   list-style: none;
 }
 
 .navbar-a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "BentonSans";
 }
 
@@ -424,7 +179,7 @@ body {
 
 .signup-btn {
   background: #916a2d;
-  padding: 5px 22px;
+  padding: 6px 21px;
   border: none;
   color: #fff;
   font-family: sans-serif;
@@ -438,17 +193,12 @@ body {
   background: #fff;
   color: black;
 }
-
-.hamburger-menu {
-  display: none;
+.menu-icon path {
+  stroke: #fff;
 }
 
-.hamburger-menu span {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px 0;
+.menu {
+  display: none;
 }
 
 /* Hero Section */
@@ -463,6 +213,8 @@ body {
 
 .inputDiv {
   margin-top: -2px;
+  margin-left: 0px;
+  margin-right: -10px;
 }
 
 .hero-content {
@@ -471,7 +223,7 @@ body {
   color: #fff;
   text-align: center;
   font-weight: 200;
-  font-size: 58px;
+  font-size: 56px;
   margin: 18px;
 }
 
@@ -500,8 +252,11 @@ body {
 }
 
 .hero-wrapper {
-  width: 610px;
-  margin: 116px auto 0;
+  width: 602px;
+  margin: 116px auto 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 .search-container {
@@ -564,7 +319,6 @@ body {
 .container {
   max-width: 845px;
   margin: 70px auto;
-
 }
 
 .crum-divder {
@@ -574,13 +328,13 @@ body {
 .main-section-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  gap: 103px;
   align-items: center;
-
+  margin-top: 77px;
 }
 
 .about-para {
-  font-size: 15px;
+  font-size: 14px;
   color: #ac9c9d;
   line-height: 1.8;
   font-family: "BentonSans";
@@ -599,7 +353,6 @@ body {
 .about-us {
   text-align: center;
   font-weight: 100;
-  padding-right: 80px;
   font-size: 28px;
 }
 
@@ -614,18 +367,17 @@ body {
 
 .about-btn {
   background: #2c0506;
-  color: #f8f7f7;
-  padding: 17px 38px;
+  color: #A89898;
+  padding: 16px 36px;
   border-radius: 50px;
-  font-size: 15px;
+  font-size: 16px;
   border: none;
-  margin: 20px 50px;
 }
 
 .meet-btn {
   display: flex;
   justify-content: center;
-  padding-right: 80px;
+  margin-top: -10px;
 }
 
 .main-section-image,
@@ -644,7 +396,7 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 210px;
+  margin-bottom: 199px;
   gap: 130px;
 }
 
@@ -663,7 +415,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 54px;
+  gap: 62px;
   max-width: 1000px;
   margin: auto;
 }
@@ -677,7 +429,7 @@ body {
 
 .before-box {
   flex: 1.2;
-  margin-top: -150px;
+  margin-top: -130px;
 }
 
 .before {
@@ -690,6 +442,7 @@ body {
   left: 45px;
   color: #fff;
   font-size: 40px;
+  font-weight: 200;
 }
 
 .after-full-box {
@@ -741,7 +494,7 @@ body {
   line-height: 1.7;
   font-size: 16px;
   max-width: 388px;
-  font-family: "BentonSans", sans-serif;
+  font-family: "BentonSans";
   letter-spacing: -1px;
 }
 
@@ -749,10 +502,10 @@ body {
   background: #2c0506;
   color: #c3b9b9;
   border: none;
-  padding: 17px 36px;
+  padding: 16px 35px;
   border-radius: 30px;
   width: fit-content;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
   display: flex;
@@ -769,14 +522,15 @@ body {
 }
 
 .after-title {
-  font-size: 45px;
+  font-size: 41px;
   font-family: "Times New Roman", Times, serif;
   padding: 30px;
   position: relative;
-  top: 264px;
-  left: 120px;
+  top: 256px;
+  left: 129px;
   z-index: 1;
   color: #fff;
+  font-weight: 200;
 }
 
 .connect-cta-div {
@@ -838,30 +592,30 @@ body {
   gap: 10px;
   font-size: 20px;
   font-weight: 200;
-  margin-top: 90px;
+  margin-top: 81px;
   margin-left: 17px;
 }
 
 .main-title {
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
-  font-size: 40px;
+  font-size: 36px;
   color: #470608;
-  padding-left: 25px;
+  padding-left: 27px;
   margin-bottom: 30px;
 }
 
 .sub-heading-group {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   font-weight: 200;
   margin-top: 14px;
-  margin-left: 142px;
+  margin-left: -70px;
 }
 
 .our-location-gropu {
-  margin-left: 288px;
+  margin-left: 28px;
   margin-bottom: 28px;
 }
 
@@ -909,8 +663,8 @@ body {
   gap: 8px;
   transition: color 0.3s ease;
   position: relative;
-  right: -53px;
-  top: -20px;
+  right: -102px;
+  top: -10px;
 }
 
 .view-all:hover {
@@ -932,7 +686,6 @@ body {
 }
 
 .properties-cards {
-  width: 310px;
   font-family: "Times New Roman", Times, serif;
   height: 245px;
   overflow: hidden;
@@ -953,7 +706,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  /* Dark shade */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1046,6 +798,10 @@ body {
   bottom: -5px;
 }
 
+.real-estate-popular-cites {
+  margin-left: -90px;
+}
+
 .real {
   font-weight: 200;
 }
@@ -1069,8 +825,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1247px;
-  margin: auto;
+  max-width: 1294px;
+  margin:  auto;
+  padding: 29px;
 }
 .locations-card-image {
   width: 100%;
@@ -1100,54 +857,37 @@ body {
 }
 
 .card-heading {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 5px;
-  font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .card-text {
-  font-size: 25px;
+  font-size: 21px;
   opacity: 0.9;
-  font-family: "Montserrat";
   font-weight: 100;
   color: #dfdcdc;
+  font-family: "Montserrat";
 }
-
 /* Crum App */
 .crum-app {
-  margin-top: 30px;
   display: flex;
-  gap: 20px;
+  gap: 33px;
 }
 
 .crumgoogle-app {
-  width: 39%;
+   width: 132px;
 }
 
-.crum-app-contaner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* gap: 70px; */
-  align-items: center;
-  margin-top: 80px;
-  margin-bottom: 54px;
-  max-width: 1039px;
-  margin: auto;
-  margin-top: 35px;
-}
 
 .crum-heading {
-  font-size: 42px;
+   font-size: 37px;
   margin-bottom: 20px;
-}
-
-.crum {
-  margin-left: 80px;
+  color: #2c0506;
 }
 
 .crum-para {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: #777777;
 }
@@ -1167,20 +907,28 @@ body {
 
 /* Blog Container */
 .blog-container {
-  max-width: 1015px;
-  margin-top: 70px;
+  max-width: 1040px;
+  margin-top: 38px;
+  padding: 12px;
 }
 
 .blog-card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 70px;
+  gap: 19px;
+  margin-bottom: -22px;
+  padding: 20px;
 }
 
 .blog-card-item {
   background: #f5f6f8;
 }
+
+.thinking-btn {
+  display: flex;
+  justify-content: center;
+}
+
 .blog-card-image {
   width: 100%;
   height: 200px;
@@ -1205,6 +953,7 @@ body {
 
 .blog-image {
   width: 100%;
+  object-fit: contain;
 }
 
 .blog-heading {
@@ -1221,9 +970,15 @@ body {
 }
 .blog-tile,
 .blog-meta {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 15px;
   font-weight: 200;
+}
+
+.about-para-crum::before {
+    top: 18px;
+    left: -42px;
+    width: 55px;
 }
 
 .blog-title {
@@ -1237,8 +992,8 @@ body {
 
 /* Popular Cites */
 .popular-cites {
-  margin-top: -40px;
-  margin-bottom: 67px;
+  margin-top: -27px;
+  margin-bottom: -13px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -1255,30 +1010,19 @@ body {
   font-size: 15px;
 }
 
-.view-heading {
-  margin: 60px 541px;
-}
-
 .view-a {
-  font-size: 16px;
+  font-size: 15px;
   background: #2c0506;
-  padding: 10px 45px;
+  padding: 11px 42px;
   color: #f5f6f8;
-  border-radius: 20px;
-}
-
-.our-blog-group {
-  margin: 23px 493px;
-}
-
-.real-estate-popular-cites {
-  margin: 88px 348px;
+  border-radius: 30px;
+  margin-top: 9px;
 }
 
 /* Footer */
 .footer-container {
   background: #2c0506;
-  padding: 19px 50px;
+  padding: 19px 0;
   color: #c4c3c3;
 }
 
@@ -1295,6 +1039,10 @@ body {
   flex-wrap: wrap;
   gap: 40px;
   margin-top: 50px;
+}
+
+.crum {
+  margin-bottom: 40px;
 }
 
 .footer-column {
@@ -1321,7 +1069,7 @@ body {
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 23px;
 }
 
 .footer-links a {
@@ -1364,7 +1112,7 @@ body {
 }
 
 .main-footer {
-  max-width: 1050px;
+  max-width: 880px;
   margin: auto;
 }
 
@@ -1391,6 +1139,7 @@ body {
 
 .languge {
   font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
 }
 
 .social-links li a {
@@ -1421,6 +1170,8 @@ body {
   max-width: 1200px;
   margin: 98px;
   color: #c4c3c3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .language-selector {
@@ -1436,7 +1187,7 @@ body {
   position: relative;
   top: 0px;
   width: 100%;
-  border-top: 1px solid #bab6b7;
+  border-top: 1px solid #c4c3c3;
 }
 
 .legal-menu {
@@ -1445,23 +1196,23 @@ body {
   flex-wrap: wrap;
 }
 
+
 .legal-menu li a {
   color: #806e6f;
   text-decoration: none;
-  font-size: 19px;
-  margin-right: 20px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .legal-menu li:not(:last-child)::after {
   content: "|";
-  color: #5a3e40;
-  margin-left: -43px;
+  color: #bab6b7;
+  margin-left: -15px;
   padding: 0 30px;
 }
 
 .disclaimer-text p {
-  font-size: 11px;
+  font-size: 10px;
   color: #857576;
   line-height: 2.9;
   text-transform: uppercase;
@@ -1474,723 +1225,609 @@ body {
   margin-bottom: 30px;
 }
 
+.view-heading {
+  margin-left: 360px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+
 .earth-icon {
   width: 23px;
+}
+
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.view {
+  background: #2c0506;
+  text-decoration: none;
+  color: #f5f6f8;
+  padding: 13px 45px;
+  border-radius: 30px;
+  font-size: 15px;
+  border: none;
 }
 
 .footer-end {
   text-align: center;
   background: #33090a;
-  color: #c4c3c3;
+  color: #857576;
   padding: 14px;
   font-size: 13px;
   border-top: 1px solid #401d1e;
 }
 
-/* Responsive websites */
-@media (max-width: 1200px) {
-  /* Hero Section */
-  .hero-content {
-    font-size: 55px;
-  }
-
-  /* Main Section */
-  .container {
-    max-width: 753px;
-    margin: auto;
-  }
-
-  .about-btn {
-    padding: 15px 30px;
-  }
-
-  .about-para::before {
-    /* font-size: 16px;
-    letter-spacing: -1px; */
-
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 2px;
-    background: #dfc99a;
-    top: 14px;
-    left: -80px;
-  }
-
-  /* Crum Connect */
-  .connect-top-grid {
-    max-width: 1000px;
-    margin: auto;
-  }
-
-  .afterImage {
-    width: 70%;
-  }
-
-  .after {
-    margin-top: 130px;
-  }
-
-  .after-title {
-    padding: 30px;
-    position: relative;
-    top: 230px;
-    left: 190px;
-  }
-
-  /* Featured Propperties */
-  .featured {
-    max-width: 1300px;
-    margin: auto;
-    padding: 10px;
-  }
-
-  .properties-cards {
-    width: 283px;
-  }
-
-  .locations-card-container {
-    max-width: 995px;
-  }
-
-  /* Blog */
-
-  .blog-heading {
-    margin-top: 0px;
-    font-size: 15px;
-  }
-
-  .blog-excerpt {
-    font-size: 14px;
-  }
-
-  /* Popular Cites */
-  .popular-cites {
-    margin-top: 40px;
-    margin-bottom: 50px;
-  }
-}
-
-@media (max-width: 1150px) {
-  .featured {
-    max-width: 1206px;
-    padding: 0px;
-  }
-
-  .properties-cards {
-    width: 270px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .featured-container {
-    max-width: 1106px;
-    padding: 10px;
-  }
-
-  .featured {
-    gap: 20px;
-  }
-
-  .properties-cards {
-    width: 250px;
-  }
-}
 
 @media (max-width: 992px) {
-  /* Hero Section */
-  .hero-content {
-    font-size: 35px;
-  }
-
-  /* Main Section */
   .container {
-    max-width: 653px;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-
-  .about-btn {
-    padding: 12px 22px;
-    font-size: 13px;
-  }
-
-  .about-content {
-    width: 100%;
-    font-size: 30px;
-  }
-
-  .about-para {
-    font-size: 12px;
-    letter-spacing: -1px;
-  }
-
-  .about-content {
-    font-size: 18px;
-  }
-
-  .thinking {
-    max-width: 770px;
-    margin-bottom: 110px;
-  }
-  /* Crum Connect */
-  .connect-top-grid {
-    max-width: 850px;
-    margin: auto;
-  }
-
-  .before-box {
-    flex: 1.2;
-    margin-top: -200px;
-  }
-
-  .connect-title {
-    font-size: 32px;
-  }
-
-  .connect-text-box {
-    gap: 10px;
-    top: -20px;
-  }
-
-  .connect-desc {
-    font-size: 16px;
-  }
-
-  .connect-cta {
-    font-size: 17px;
-    padding: 7px 20px;
-  }
-
-  .connect-cta-div {
-    margin: 10px -20px;
-  }
-
-  .after-full-box {
-    top: -180px;
-  }
-
-  /* Blog Website */
-
-  .blog-heading {
-    margin-top: 0px;
-    font-size: 20px;
-  }
-
-  .blog-excerpt {
-    font-size: 17px;
-  }
-
-  /* .featured-container */
-  .featured-propertie {
-    max-width: 1320px;
-    margin: auto;
-  }
-
-  .featured {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 10px;
-  }
-
-  .properties-cards {
-    width: 270px;
-  }
-
-  .sub-heading-group {
-    margin-left: 35px;
-  }
-
-  .locations-card-container {
-    max-width: 965px;
-    padding: 20px;
-  }
-
-  .popular-cites-link {
-    font-size: 11px;
-  }
-
-  .view-heading {
-    font-weight: 200;
-    margin-left: 252px;
-    margin-top: 50px;
-  }
-
-  /* Footer */
-
-  .footerLogo-links {
-    width: 57%;
-  }
-
-  .blog-card-container {
-    grid-template-columns: 1fr 1fr;
-  }
+  max-width: 581px;
 }
 
-@media (max-width: 786px) {
-  /* Navbar */
+.about-us {
+  font-size: 25px;
+}
+
+.about-para {
+  font-size: 13px;
+}
+
+.about-btn {
+  padding: 15px 29px;
+}
+
+.thinking {
+  max-width: 694px;
+  gap: 43px;
+  margin-bottom: 116px;
+}
+
+.main-section-container {
+  gap: 24px;
+}
+.footers {
+    max-width: 901px;
+}
+
+.footer-content {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.before-box {
+  flex: 1.2;
+  margin-top: -224px;
+}
+
+.connect-top-grid {
+  max-width: 850px;
+  padding: 20px;
+}
+
+
+.connect-title {
+  font-size: 34px;
+}
+
+.connect-desc {
+  font-size: 15px;
+}
+
+
+.connect-cta {
+  padding: 15px 24px;
+  font-size: 15px;
+}
+
+.befores {
+  font-size: 37px;
+}
+
+.featured {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.view-all {
+  right: -132px;
+}
+
+.blog-card-container {
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+}
+
+.crum-app-image {
+    width: 337px;
+}
+
+.popular-cites {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.logo {
+  width: 83px;
+}
+
+}
+
+@media (max-width: 768px) {
   .nav-btn {
     display: none;
   }
 
-  .hamburger-menu {
+  .menu-icon path {
+  stroke: #fff;
+}
+
+  .menu {
     display: block;
   }
 
-  /* Hero Section */
-  .hero-content {
-    font-size: 55px;
-  }
-
   .hero-wrapper {
-    width: 90%;
-    max-width: 900px;
-    padding: 0 12px;
+    width: 450px;
   }
 
-  /* Main section */
+.hero-content {
+  font-size: 44px;
+  margin: 16px;
+}
   .container {
-    max-width: 500px;
-    margin: auto;
-  }
+  max-width: 401px;
+}
 
-  .about-container {
-    width: 100%;
-  }
+.about-btn {
+  padding: 13px 23px;
+  font-size: 14px;
+}
 
-  .about-content {
-    font-size: 22px;
-  }
+.main-section-container {
+  grid-template-columns: 1fr;
+}
 
-  .about-btn {
-    padding: 10px 15px;
-    font-size: 12px;
-  }
+.thinking {
+  max-width: 424px;
+  grid-template-columns: 1fr;
+}
 
-  .main-section-image {
-    width: 140%;
-  }
 
-  .main-section-image2 {
-    width: 140%;
-  }
+.before-box {
+  flex: 1.2;
+  margin-top: -179px;
+}
 
-  /* Crum Connect */
-  .connect-top-grid {
-    max-width: 680px;
-    margin: auto;
-    padding: 20px;
-  }
 
-  .before-box {
-    flex: 1.2;
-    margin-top: -300px;
-  }
+.connect-text-box {
+  margin-top: 51px;
+}
 
-  .before {
-    width: 100%;
-  }
 
-  .befores {
-    font-size: 30px;
-  }
+.connect-title {
+  font-size: 32px;
+}
 
-  .connect-title {
-    font-size: 28px;
-  }
 
-  .after-title {
-    font-size: 40px;
-    left: 120px;
-  }
+.connect-desc {
+  font-size: 13px;
+}
 
-  .connect-desc {
-    font-size: 15px;
-    letter-spacing: -1px;
-  }
 
-  .connect-cta-div {
-    margin: 10px -50px;
-  }
+.connect-cta {
+  padding: 13px 17px;
+  font-size: 14px;
+}
 
-  .afterImage {
-    width: 90%;
-  }
+.main-title {
+  font-size: 32px;
+}
 
-  /* Featured Propperties */
-  .featured-container {
-    max-width: 740px;
-    margin: auto;
-  }
+.view-all {
+  right: -81px;
+}
 
-  .sub-heading-group {
-    margin-left: -35px;
-  }
+.featured {
+  grid-template-columns: 1fr 1fr;
+}
 
-  .view-all {
-    right: -44px;
-  }
+.locations-card-container {
+  grid-template-columns: 1fr 1fr;
+}
 
-  .featured-propertie {
-    max-width: 820px;
-    margin: auto;
-  }
 
-  .featured {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
+.crum-app-coontainer {
+  gap: 29px;
+}
 
-  .properties-cards {
-    width: 300px;
-  }
 
-  .locations-card-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 730px;
-    margin: auto;
-    padding: 20px;
-  }
+.about-para-crum::before {
+    top: 13px;
+    left: 38px;
+    width: 53px;
+}
 
-  .left-side {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-  }
 
-  .popular-cites {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+ .blog-container {
+  max-width: 542px;
+}
 
-  .popular-cites-link {
-    font-size: 12px;
-  }
 
-  .main-title {
-    font-size: 30px;
-  }
+.popular-cites {
+  grid-template-columns: 1fr 1fr;
+}
 
-  .view-heading {
-    font-weight: 200;
-    margin-left: 202px;
-    margin-top: 50px;
-  }
+.blog-heading {
+  margin-top: 18px;
+  font-size: 14px;
+}
 
-  .view-a {
-    font-size: 14px;
-  }
+.blog-excerpt {
+  color: #a0a1a1;
+  font-size: 15px;
+}
+
+
+.real-estate-popular-cites {
+  margin-left: -110px;
+}
+
+.footers {
+    max-width: 681px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-footer {
+  max-width: 490px;
+  margin: auto;
+}
+
 }
 
 @media (max-width: 600px) {
-  /* Hero Sectiom */
-  .hero-content {
-    font-size: 55px;
-  }
-
-  .buy-btn,
-  .rent-btn {
-    padding: 10px 15px;
-  }
-
-  .heroInput {
-    width: 100%;
-  }
-
-  .hero-wrapper {
-    width: 100%;
-    padding: 0 12px;
-  }
-
-  /* Main Section */
-  /* Main Section */
   .container {
-    max-width: 470px;
-    margin: auto;
+  max-width: 224px;
+}
+
+.footers {
+    max-width: 344px;
+}
+
+.thinking {
+  max-width: 258px;
+  grid-template-columns: 1fr;
+}
+
+.connect-top-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.before-box {
+  flex: 1.2;
+  margin-top: -67px;
+}
+
+.connect-text-box {
+  margin-top: 33px;
+}
+
+.connect-title {
+  font-size: 31px;
+}
+
+
+.connect-desc {
+  font-size: 13px;
+}
+
+.connect-cta {
+  padding: 13px 14px;
+  font-size: 14px;
+}
+
+
+.main-title {
+  font-size: 23px;
+}
+
+
+.view-all {
+  right: -58px;
+  font-size: 11px;
+}
+
+
+.featured {
+  grid-template-columns: 1fr;
+}
+
+
+.locations-card-container {
+  grid-template-columns: 1fr;
+}
+
+.crum-apps {
+  max-width: 320px;
+}
+
+.about-para-crum::before {
+    left: 21px;
+}
+
+.blog-card-container {
+  grid-template-columns: 1fr;
+  padding: 0px;
+}
+
+ .blog-container {
+  max-width: 334px;
+}
+
+.popular-cites-container {
+  max-width: 360px;
+}
+
+
+
+}
+
+@media (max-width: 480px) {
+  .nav-btn {
+    display: none;
   }
 
-  .main-section-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    margin-right: 50px;
-  }
+  .menu-icon path {
+  stroke: #fff;
+}
 
-  .about-container {
-    width: 100%;
-    position: relative;
-    left: 50px;
-  }
+.hero-wrapper {
+  width: 350px;
+}
 
-  .main-section-image {
-    width: 120%;
-  }
+.hero-content {
+  font-size: 35px;
+}
 
-  .main-section-image2 {
-    width: 120%;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
+.sub-heading-group {
+  margin-left: 0px;
+}
 
-  /* Crum Connect */
-  .connect-top-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 380px;
-    margin: auto;
-  }
 
-  .before-box {
-    margin-top: -50px;
-  }
+.view-all {
+  right: -21px;
+  font-size: 9px;
+}
 
-  .connect-title {
-    font-size: 25px;
-  }
 
-  .connect-desc {
-    font-size: 15px;
-  }
+.real-estate-popular-cites {
+  margin-left: -44px;
+}
 
-  .connect-text-box {
-    gap: 10px;
-    top: -60px;
-  }
-
-  .connect-cta-div {
-    margin: 10px -60px;
-  }
-
-  .afterImage {
-    width: 90%;
-  }
-
-  /* Featured Propperties */
-  .featured-container {
-    max-width: 600px;
-  }
-
-  .main-title {
-    font-size: 25px;
-  }
-
-  .view-all {
-    right: -5px;
-  }
-
-  .sub-heading-group {
-    margin-left: 0px;
-  }
-
-  .featured {
-    max-width: 1220px;
-    margin: auto;
-  }
-
-  .featured {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 10px;
-  }
-
-  .properties-cards {
-    width: 400px;
-  }
-
-  .locations-card-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    max-width: 550px;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .popular-links {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .popular-cites {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .view-heading {
-    font-weight: 200;
-    margin-left: 132px;
-    margin-top: 10px;
-  }
-
-  .view-a {
-    font-size: 14px;
-  }
-
-  .blog-container {
-    max-width: 470px;
-    margin: auto;
-    width: 66%;
-  }
-
-  .blog-card-container {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 400px) {
-  /* Hero Sectiom */
-  .hero-content {
-    font-size: 35px;
+  .nav-btn {
+    display: none;
   }
 
-  .container {
-    max-width: 250px;
-    margin: auto;
-  }
+  .menu-icon path {
+  stroke: #fff;
+}
 
-  .about-btn {
-    padding: 12px 14px;
-    font-size: 10px;
-  }
+.hero-wrapper {
+  width: 300px;
+}
 
-  .main-section-image,
-  .main-section-image2 {
-    width: 132%;
-  }
+.hero-content {
+  font-size: 32px;
+}
 
-  .crum-divder {
-    width: 60px;
-    height: 3px;
-    bottom: -25px;
-    right: 68px;
-  }
-  .about-content {
-    font-size: 27px;
-  }
+ .about-main-container {
+  max-width: 189px;
+}
 
-  .thinking-container {
-    position: relative;
-  }
 
-  /* Crum Connect */
-  .connect-top-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+.about-btn {
+  padding: 11px 16px;
+  font-size: 12px;
+}
 
-  .before-box {
-    margin-top: -61px;
-  }
+.main-section-image,
+.main-section-image2 {
+  width: 219px;
+}
 
-  .connect-text-box {
-    gap: 10px;
-    top: -110px;
-  }
+.footer-column {
+  flex: 1;
+  min-width: 190px;
+}
 
-  .afterImage {
-    width: 90%;
-  }
+.about-us {
+  font-size: 19px;
+}
 
-  .after-full-box {
-    top: -300px;
-  }
+.footers {
+  max-width: 404px;
+  margin: auto;
+}
 
-  .after-title {
-    font-size: 28px;
-    left: 10px;
-  }
+.about-para {
+  font-size: 11px;
+}
 
-  /* Featured Propperties */
-  .featured-container {
-    max-width: 352px;
-    padding: 2px;
-  }
+.connect-top-grid {
+  display: flex;
+  flex-direction: column;
+}
 
-  /* Featured Properties */
-  .featured-propertie {
-    padding: 0px 0px;
-    margin-bottom: 30px;
-  }
+.before-box {
+  flex: 1.2;
+  margin-top: -76px;
+}
 
-  .main-title {
-    font-size: 19px;
-  }
+.befores {
+  font-size: 29px;
+}
 
-  .sub-heading-group {
-    margin-left: -22px;
-    padding: 27px;
-  }
-  .view-all {
-    font-size: 16px;
-    top: -33px;
-  }
+.connect-text-box {
+  margin-top: -17px;
+}
 
-  .featured {
-    max-width: 1220px;
-    margin: auto;
-  }
+.connect-title {
+  font-size: 30px;
+}
 
-  .featured {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 17px;
-  }
+.connect-cta {
+  padding: 12px 16px;
+  font-size: 15px;
+}
 
-  .properties-cards {
-    width: 290px;
-  }
+.connect-desc {
+  font-size: 12px;
+}
 
-  .popular-cites {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 0px;
-    margin-bottom: 50px;
-  }
 
-  .popular-cites-link {
-    font-size: 16px;
-  }
+.after-title {
+  font-size: 27px;
+  top: 220px;
+  left: 25px;
+}
 
-  .left-side {
-    padding: 0 6px;
-  }
+.main-title {
+  font-size: 18px;
+}
 
-  .view-heading {
-    font-weight: 200;
-    margin-left: 112px;
-    margin-top: 10px;
-  }
 
-  .view-a {
-    font-size: 12px;
-    padding: 10px 31px;
-  }
+.view-all {
+  right: -9px;
+  font-size: 7px;
+}
 
-  .crum-para {
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 1.3;
-  }
+.card-heading {
+  font-size: 18px;
+}
 
-  .crumgoogle-app {
-    width: 48%;
-  }
 
-  .blog-heading {
-    font-size: 13px;
-  }
+.card-text {
+  font-size: 20px;
+}
 
-  .blog-excerpt {
-    margin: 0 0;
-    font-size: 13px;
-  }
+.about-para-crum::before {
+    top: 10px;
+    left: 5px;
+    width: 44px;
+}
+
+.crum-heading {
+  font-size: 22px;
+}
+
+.crumgoogle-app {
+   width: 116px;
+}
+
+.crum-app {
+  display: flex;
+  gap: 22px;
+}
+
+.crum-app-image {
+  width: 285px;
+}
+
+.blog-titles {
+  font-size: 27px;
+}
+
+.blog-divder {
+  width: 50x;
+}
+
+
+.blog-card-container {
+  grid-template-columns: 1fr;
+  padding: 0px;
+}
+
+.blog-heading {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.blog-excerpt {
+  font-size: 14px;
+}
+
+.our-location-gropu {
+  margin-left: 28px;
+  margin-bottom: -2px;
+  margin-top: -35px;
+}
+
+.location-divider {
+  width: 50px;
+}
+
+.location-title {
+  font-size: 26px;
+}
+
+.los-angeles {
+  margin-top: -31px;
+}
+
+.los {
+  width: 50px;
+}
+
+.los-title {
+  font-size: 20px;
+}
+
+.about-para::before {
+  width: 43px;
+  top: 8px;
+  left: -56px;
+}
+
+
+.logo {
+  width: 71px;
+}
+
+.crum-apps {
+  width: 299px;
+}
+
+.crum-app-contaner {
+  width: 245px;
+}
+
+.popular-cites {
+  grid-template-columns: 1fr;
+}
+
+
+.popular-cites-container {
+  max-width: 180px;
+}
+
+.crum-logo {
+  width: 90px;
+}
+
+
+.main-footer {
+  max-width: 270px;
+  margin: auto;
+}
+
 }
