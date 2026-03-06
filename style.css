@@ -1167,11 +1167,12 @@
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 98px;
+  max-width: 2110px;
+  margin: 68px 130px;
   color: #c4c3c3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px
 }
 
 .language-selector {
@@ -1497,7 +1498,7 @@
 }
 
 .footers {
-    max-width: 344px;
+    max-width: 674px;
 }
 
 .thinking {
@@ -1576,6 +1577,16 @@
 }
 
 
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer-content {
+  margin: 68px 80px;
+}
+
+
 
 }
 
@@ -1608,7 +1619,7 @@
 
 
 .real-estate-popular-cites {
-  margin-left: -44px;
+  margin-left: -54px;
 }
 
 }
@@ -1777,7 +1788,7 @@
 }
 
 .location-title {
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .los-angeles {
@@ -1804,7 +1815,7 @@
 }
 
 .crum-apps {
-  width: 299px;
+  width: 259px;
 }
 
 .crum-app-contaner {
@@ -1831,3 +1842,4 @@
 }
 
 }
+
