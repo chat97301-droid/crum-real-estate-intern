@@ -144,7 +144,7 @@
 
 .navbar-ul {
   display: flex;
-  gap: 35px;
+  gap: 36px;
   list-style: none;
 }
 
@@ -186,7 +186,7 @@
   border-radius: 20px;
   text-align: center;
   align-items: center;
-  font-size: 15x;
+  font-size: 15px;
 }
 
 .signup-btn:hover {
@@ -368,9 +368,9 @@
 .about-btn {
   background: #2c0506;
   color: #A89898;
-  padding: 16px 36px;
+  padding: 17px 36px;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 15px;
   border: none;
 }
 
@@ -502,10 +502,10 @@
   background: #2c0506;
   color: #c3b9b9;
   border: none;
-  padding: 16px 35px;
+  padding: 18px 34px;
   border-radius: 30px;
   width: fit-content;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   transition: 0.3s;
   display: flex;
@@ -611,12 +611,13 @@
   align-items: center;
   font-weight: 200;
   margin-top: 14px;
-  margin-left: -70px;
+  margin-left: -160px;
 }
 
 .our-location-gropu {
   margin-left: 28px;
-  margin-bottom: 28px;
+  margin-bottom: -2px;
+  margin-top: -25px;
 }
 
 .left-side {
@@ -663,7 +664,7 @@
   gap: 8px;
   transition: color 0.3s ease;
   position: relative;
-  right: -102px;
+  right: -242px;
   top: -10px;
 }
 
@@ -977,7 +978,7 @@
 
 .about-para-crum::before {
     top: 18px;
-    left: -42px;
+    left: -62px;
     width: 55px;
 }
 
@@ -1135,6 +1136,7 @@
   max-width: 1207px;
   font-size: 14px;
   margin-bottom: -26px;
+  margin-top: 110px;
 }
 
 .languge {
@@ -1212,6 +1214,10 @@
   padding: 0 30px;
 }
 
+.popular-cites-container {
+  max-width: 1015px;
+}
+
 .disclaimer-text p {
   font-size: 10px;
   color: #857576;
@@ -1239,7 +1245,7 @@
 .view-all-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .view {
@@ -1354,6 +1360,12 @@
 .logo {
   width: 83px;
 }
+
+.main-footer {
+  max-width: 740px;
+  margin: auto;
+}
+
 
 }
 
@@ -1496,6 +1508,24 @@
   .container {
   max-width: 224px;
 }
+
+
+
+.footerLogo-links {
+  width: 53%;
+}
+
+
+.main-footer {
+  max-width: 350px;
+  margin: auto;
+}
+
+
+.legal-menu li a {
+  font-size: 12px;
+}
+
 
 .footers {
     max-width: 674px;
@@ -1732,9 +1762,7 @@
 }
 
 .about-para-crum::before {
-    top: 10px;
-    left: 5px;
-    width: 44px;
+    display: none;
 }
 
 .crum-heading {
@@ -1786,6 +1814,9 @@
 .location-divider {
   width: 50px;
 }
+.gold-line-left {
+  visibility: hidden;
+}
 
 .location-title {
   font-size: 25px;
@@ -1826,7 +1857,6 @@
   grid-template-columns: 1fr;
 }
 
-
 .popular-cites-container {
   max-width: 180px;
 }
@@ -1835,11 +1865,10 @@
   width: 90px;
 }
 
-
 .main-footer {
   max-width: 270px;
   margin: auto;
 }
 
-}
 
+}
